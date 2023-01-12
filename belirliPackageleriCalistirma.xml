@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="packageleri calistirma">
+    <test name="istenen packageleri calistirma">
+        <packages>
+            <package name="tests.day14_testNGFramework"></package>
+            <package name="tests.day15_SoftAssert"></package>
+        </packages>
+    </test>
+</suite>

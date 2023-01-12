@@ -8,8 +8,9 @@ import utilities.ReusableMethods;
 
 public class C03_PozitifLoginTesti {
 
-    @Test
+    @Test(groups = {"smoke", "minireg2"})
     public void test01(){
+        ReusableMethods.bekle(2);
 
         // 1- https://www.qualitydemy.com/ anasayfasina gidin
         Driver.getDriver().get("https://www.qualitydemy.com/");

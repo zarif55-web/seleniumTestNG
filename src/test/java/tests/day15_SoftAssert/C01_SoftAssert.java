@@ -10,7 +10,7 @@ import java.util.Arrays;
 
 public class C01_SoftAssert {
 
-    @Test
+    @Test(groups = "minireg1")
     public void test01(){
         //amazon anasayfaya gidin
         Driver.getDriver().get("https://www.amazon.com");

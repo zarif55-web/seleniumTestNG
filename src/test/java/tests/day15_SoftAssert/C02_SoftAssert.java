@@ -14,7 +14,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class C02_SoftAssert {
-    @Test
+    @Test(groups = "minireg1")
     public void test01() {
         // 1. “http://zero.webappsecurity.com/” Adresine gidin
         Driver.getDriver().get("http://zero.webappsecurity.com/");

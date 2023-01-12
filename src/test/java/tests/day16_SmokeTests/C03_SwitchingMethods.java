@@ -26,6 +26,6 @@ public class C03_SwitchingMethods {
 
         Assert.assertEquals(actualYazi,expectedYazi);
 
-        Driver.getDriver().quit();
+        Driver.quitDriver();
     }
 }
